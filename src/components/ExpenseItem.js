@@ -1,5 +1,13 @@
-function ExpenseItem(){
-    return <h2>Expense Component</h2>
+function ExpenseItem() {
+    return (
+        <div>
+            <div>Date</div>
+            <div>
+                <h2>Car Insurance</h2>
+                <div>60$</div>
+            </div>
+        </div>
+    );
 }
 
 export default ExpenseItem;
